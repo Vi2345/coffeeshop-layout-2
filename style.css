@@ -1,0 +1,567 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    list-style: none;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: sans-serif;
+
+}
+
+::-webkit-scrollbar{
+    height: 0.5rem;
+    padding: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: seashell;
+}
+
+section{
+    max-width:100px;
+    margin:0% auto;
+    padding:1rem 1.5rem;
+
+
+}
+
+.header{
+    position: sticky;
+    background-color: khaki;
+}
+
+.header .flex{
+    display:inline-flex;
+    justify-content: space-between;
+
+}
+
+.header .flex .logo img{
+    background-color: brown;
+    padding:40px;
+}
+
+.header .flex .navbar a{
+    background-color: blue;
+    position:absolute;
+    margin-left:50%;
+    margin-top:2px;
+    padding-top:38px;
+    padding-bottom:40px;
+    padding-left: 40%;
+    
+    
+
+
+}
+
+
+
+.menu .Home{
+    display:flex;
+    background-color:aquamarine;
+    max-width:100%;
+    padding:20%;
+    text-align: center;
+}
+
+
+
+.menu .Home .content{
+    width: 50rem;
+    text-align: center;
+    align-items: center;
+
+}
+
+.menu .Home .content h1{
+    background-color: white;
+    width:80%;
+    padding:20px;
+    padding-left:40px;
+    
+}
+
+.menu .Home .content p{
+    background-color: bisque;
+    width: 60%;
+    padding:20px;
+    padding-left:35px;
+    margin-top:20px;
+    margin-left:50px;
+}
+
+.button{
+    display:inline-block;
+    padding-top:10px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    background-color: orangered;
+    margin-top:20px;
+    margin-right:50%;
+    margin-left:80px;
+
+
+}
+
+.menu .solid img{
+    background-color: brown;
+    width: 100%;
+    padding: 50%;
+    padding-left:100px;
+    padding-right:100px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.About{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    max-width: 100%;
+    padding:20%;
+    background-color: blue;
+}
+
+.About .image img{
+    width:100%;
+    background-color: brown;
+    padding:50%;
+    padding-left:100px;
+    padding-right:100px;
+    margin-left:70px;
+
+
+}
+
+.About .border h1{
+    width:30rem;
+    background-color: white;
+    padding:20px;
+    padding-left:80px;
+    padding-right: 80px;
+    margin-left:100%;
+    margin-top:-60%;
+}
+
+.About .border p{
+    background-color: bisque;
+    width:70%;
+    padding:20px;
+    padding-left:50px;
+    margin-top:20px;
+    margin-left:110%;
+}
+
+.color{
+    display:inline-block;
+    padding-top:10px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    background-color: orangered;
+    margin-top:30px;
+    margin-right:50%;
+    margin-left:130%;
+
+}
+ .Facility{
+    display:flex;
+    background-color: blueviolet;
+    max-width:100%;
+    padding:20%;
+
+}
+
+ .Facility .image img{
+    background-color: brown;
+    padding:20px;
+    margin-left:310px;
+    margin-top:-100%;
+    padding-left:80px;
+    padding-right:80px;
+}
+
+.Facility .image h1{
+    width:80%;
+    background-color: white;
+    padding:20px;
+    padding-left:50px;
+    margin-left:52%;
+    margin-top:25px;;
+
+}
+
+.Facility .box-row img{
+    display: inline-block;
+    background-color: brown;
+    padding: 20px;
+    padding-left:90px;
+    margin-top:200px;
+    margin-left:-650px;
+
+}
+
+.Facility .box-row  h1{
+    background-color: white;
+    padding: 20px;
+    padding-left: 90px;
+    margin-top:30px;
+    width:18rem;
+    margin-left:-720px;
+
+}
+
+.Facility .box-row p{
+    padding: 20px;
+    padding-left:90px;
+    width:13rem;
+    background-color: beige;
+    margin-left:-690px;
+    margin-top:38px;
+}
+
+.Facility .box-area img{
+    display: inline-block;
+    background-color: brown;
+    padding: 20px;
+    padding-left:90px;
+    margin-top:200px;
+    margin-left:-140px;
+
+}
+
+.Facility .box-area h1{
+    background-color: white;
+    padding: 20px;
+    padding-left: 90px;
+    width: 18rem;
+    margin-top:32px;
+    margin-left:-220px;
+}
+
+.Facility .box-area p{
+    background-color: beige;
+    padding: 20px;
+    padding-left:90px;
+    width: 13rem;
+    margin-top: 38px;
+    margin-left:-85%;
+}
+
+.Facility .box-column img{
+    display: inline-block;
+    background-color: brown;
+    padding: 20px;
+    padding-left: 90px;
+    margin-top: 200px;
+    margin-left:120px;
+}
+
+.Facility .box-column h1{
+    background-color: white;
+    padding: 20px;
+    padding-left: 90px;
+    width: 18rem;
+    margin-top:32px;
+    margin-left:35px;
+}
+
+.Facility .box-column p{
+    background-color: beige;
+    padding: 20px;
+    padding-left: 90px;
+    margin-top: 35px;
+    width: 13rem;
+    margin-left:80px;
+}
+
+.Facility .images img{
+    display: inline-block;
+    background-color: brown;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top:400%;
+    margin-left:-425%;
+
+
+}
+
+.Facility .images h1{
+    background-color: white;
+    margin-left:-480%;
+    margin-top: 30px;
+    width: 2rem;
+    padding:20px;
+    padding-left:210%;
+}
+
+.Menu{
+    display: flex;
+    background-color: coral;
+    max-width:100%;
+    padding: 20%
+}
+
+.Menu .heading img{
+    display: inline-block;
+    background-color: brown;
+    padding: 20px;
+    padding-left:30%;;
+    margin-left:350px;
+}
+
+.Menu .heading h1{
+    width:80%;
+    background-color: white;
+    padding: 20px;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-left:300px;
+}
+
+.Menu .area img{
+    display: inline-block;
+    background-color:brown;
+    padding: 20px;
+    padding-left: 90px;
+    margin-top:230px;
+    margin-left:-280px;
+}
+
+.Menu .area h1{
+    width:80%;
+    background-color: white;
+    padding: 20px;
+    padding-left:200px;
+    margin-left:-320px;
+    margin-top: 20px;
+}
+
+.Menu .border img{
+    display: inline-block;
+    background-color:brown;
+    padding: 20px;
+    padding-left: 90px;
+    margin-top:230px;
+    margin-left:180px;
+
+}
+
+.Menu .border h1{
+    width:80%;
+    background-color:white;
+    padding: 20px;
+    padding-left:100px;
+    margin-top: 20px;
+    margin-left:130px;
+}
+
+.Menu .field img{
+    display: inline-block;
+    background-color: brown;
+    padding: 20px;
+    padding-left:90px;
+    margin-top:430px;
+    margin-left:-570px;
+}
+
+.Menu .field  h1{
+    width:80%;
+    background-color:white;
+    padding: 20px;
+    padding-left:220px;
+    margin-left:-620px;
+    margin-top: 20px;
+
+}
+
+.Menu .gap img{
+    display: inline-block;
+    background-color:brown;
+    padding: 20px;
+    padding-left: 90px;
+    margin-top: 430px;
+    margin-left: -98px;
+}
+
+.Menu .gap h1{
+    width:80%;
+    background-color:white;
+    padding: 20px;
+    padding-left:218px;
+    margin-top: 20px;
+    margin-left:-155px;
+}
+
+.Form{
+    display: flex;
+    max-width: 100%;
+    padding: 20%;
+    background-color: darkcyan;
+
+}
+
+
+.Form .layout{
+    width:50%;
+    padding: 20px;
+    padding-bottom:100px;
+    padding-left: 150px;
+    background-color: darksalmon;
+    margin-left:300px;
+    margin-top: -140px;
+}
+
+.Form .layout .letter h1{   
+    width:70%;
+    padding: 20px;
+    padding-left:180px;
+    background-color: blue;
+    margin-top:50px;
+    margin-left:-70px;
+}
+
+.Form .layout .letter h2{
+    width: 70%;
+    padding: 20px;
+    padding-left: 180px;
+    background-color: dimgrey;
+    margin-top:50px;
+    margin-left:-70px;
+}
+
+.Form .layout .letter h3{
+    width: 70%;
+    padding: 20px;
+    padding-left: 180px;
+    background-color: darkgreen;
+    margin-top:50px;
+    margin-left:-70px;
+}
+
+
+.Form .outer img{
+    display: inline-flex;
+    padding:80px;
+    padding-left:100px;
+    padding-bottom:200px;
+    margin-top:-30px;
+    background-color: brown;
+}
+
+.Form .layout .letter .button  {
+    display: inline-flex;
+    padding: 20px;
+    padding-left:80px;
+    margin-left:-25px;
+    margin-top:50px;
+    background-color: brown;
+}
+
+.contact{
+    display: flex;
+    background-color: fuchsia;
+    max-width: 100%;
+    padding: 20%;
+}
+
+.contact .align img{
+    background-color: beige;
+    border-radius: 80px;
+    padding:40px;
+    margin-left:20px;
+}
+
+.contact .align h1{
+    background-color: blanchedalmond;
+    width:80%;
+    padding:20px;
+    padding-left:180px;
+    margin-top: 30px;
+    margin-left: -22px;
+}
+
+.contact .align p{
+    background-color: beige;
+    width:60%;
+    padding:20px;
+    padding-left:140px;
+    margin-top:30px;
+    margin-left:-1px;
+
+}
+
+.contact .corner img{
+    background-color: beige;
+    border-radius:80px;
+    padding:40px;
+    margin-left:180px;
+}
+
+.contact .corner h1{
+    background-color: blanchedalmond;
+    width:70%;
+    padding: 20px;
+    padding-left:55px;
+    margin-top: 30px;
+    margin-left:150px;
+}
+
+.contact .corner p{
+    background-color: beige;
+    width:60%;
+    padding:20px;
+    padding-left: 80px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-left:163px;
+}
+
+.contact .center img{
+    background-color: antiquewhite;
+    border-radius: 80px;
+    padding: 40px;
+    margin-left:300px;
+}
+
+.contact .center h1{
+    background-color:whitesmoke;
+    width:50%;
+    padding:20px;
+    padding-left:30px;
+    margin-left: 250px;
+    margin-top:30px;
+}
+
+.contact .center p{
+    width:40%;
+    padding: 20px;
+    padding-left:80px;
+    background-color: cornsilk;
+    margin-left:270px;
+    margin-top: 35px;
+}
+
+.Footer .text p{
+    background-color: blue;
+    width:70%;
+    padding:20px;
+    padding-left:220px;
+    margin-top:500px;
+    margin-left:-508px;
+}
+
+
+
